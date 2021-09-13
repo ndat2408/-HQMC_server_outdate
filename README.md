@@ -1,2 +1,1 @@
-# -HQMC_server_outdate
-mc minecraft server website outdate
+#mc minecraft server website
