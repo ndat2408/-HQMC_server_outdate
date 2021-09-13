@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" href="./img/minecraft.ico">
+    <title>HQ minecraft server</title>
+</head>
+<body>
+        <div class="modal">
+            <div style="width: 100%; height: 100%; cursor: pointer;" onclick="closemodal()"></div>
+            <div class="modal_content">
+                <i class="fas fa-times clsbtn" onclick="closemodal()"></i>
+                <h2>Thông tin server:</h2>
+                <br>
+                <p>IP: THPTHQ.aternos.me <i title="click to copy" class="fas fa-copy" onclick="copy(this)"></i></p>
+                <p>Port: 47808</p>
+                <p>Version: Java 1.15.2</p>
+                <p>Thời gian mở: 8:00 - 12:00</p>
+                <p>Số lượng giới hạn: 100</p>
+                <p>Chế độ chơi: Phiêu lưu</p>
+            </div>
+        </div>    
+        <div class="img_modal">
+            <div style="width: 100%; height: 100%; cursor: pointer;" onclick="closeimgmodal()"></div>
+            <div class="img_content">
+                <img src="" alt="">
+            </div>
+        </div>
+    <header>
+        <div class="header">
+            <div id="logo"><a href="#">  HQ <span>minecraft</span> server</a></div>
+            <i class="fas fa-bars menubtn"></i>
+            <div id="navbar">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#about">Thông tin</a></li>
+                    <li><a href="#img">Hình ảnh</a></li>
+                    <li><a href="#people">Đóng góp</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="intro">
+            <h1>HONG QUANG MINECRAFT SERVER</h1>
+            <br>
+            <button onclick="openmodal()">Tham gia ngay</button>
+        </div>
+
+
+    </header>
+
+    
+    <div id="about">
+        <h1>- Thông tin server -</h1>
+        <br>
+        <hr>
+        <br>
+        <div class="people_info">
+            <div class="info_content">
+                <i class="fas fa-ban logo"></i>
+                <p><br>Xin lỗi, hiện tại server của bọn mình đã đóng<br>nhưng bạn có thể tải về map mà bọn mình đã xây ở dưới</p> 
+            </div>
+            <br>
+            <div class="info_content">
+                <a href="./file/world.zip" download="world">
+                    <button onMouseOver="this.style.color='#000'"
+                    onMouseOut="this.style.color='#fff'"><i class="fas fa-download"></i> Download</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="img">
+        <h1>- Một vài hình ảnh trong server-</h1>
+        <br>
+        <hr>
+        <br>
+        <div class="image">
+            <img onclick="imgmodal(this)" src="./img/image/01.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/02.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/03.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/04.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/05.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/06.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/07.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/08.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/09.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/10.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/11.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/12.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/13.png" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/14.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/15.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/16.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/17.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/18.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/19.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/20.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/21.jpg" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/22.png" alt="">
+            <img onclick="imgmodal(this)" src="./img/image/23.png" alt="">
+            <img src="" alt="">
+        </div>
+        <p>Cre: <a href="https://www.facebook.com/colonyofnice/posts/560586572036150">Colony of Nice</a></p>
+    </div>
+        
+    <div id="people">
+        <h1>- Những người cùng tạo nên server -</h1>
+        <br> <hr> <br>
+        <div class="server_info">
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Tùng Lâm</p>
+                <p>(Lamdeptrai)</p> 
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Thế Đạt</p>
+                <p>(ndat2408)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Khánh Toàn</p> 
+                <p>(A12-PKT)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Tuấn Kiệt</p>
+                <p>(PTK0910)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Đào Sơn</p>
+                <p>(SWN)</p>
+                
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Hoàng Quân</p>
+                <p>(Quandepzaibodoi)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Bùi Quân</p>
+                <p>(MQuan0810)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Khánh Linh</p>
+                <p>(linhmit)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Thu Quyên</p>
+                <p>(Thu Quyen)</p>
+            </div>
+            <div class="info_people">
+                <img src="https://minecraftfaces.com/wp-content/bigfaces/big-steve-face.png" alt="">
+                <p>Đăng Mạnh</p>
+                <p>(manhdeptraibodoi)</p>
+            </div>
+    </div>
+
+    </div>
+    </div>
+
+    <footer>
+         <p> Desgined by ndat2408</p>
+         <p><i class="far fa-copyright"></i> 2021 Colony of Nice | All rights reserved</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

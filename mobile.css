@@ -1,0 +1,167 @@
+@media only screen and (max-width: 600px) {
+    .menubtn{
+        font-size: 1.5rem;
+        display: block;
+        cursor: pointer;
+    }
+    .modal_content{
+        width: 90vw;
+        padding: 30px 40px;
+    }
+
+    .img_content{
+        width: 90%;
+        padding: 5px;
+    }
+
+    hr{
+        width: 70%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.125rem;
+    }
+    .header {
+        height: 80px !important;
+        padding: 0 15px;
+    }
+
+    .sticky{
+        height: 60px !important;
+    }
+    
+    #logo{
+        font-size: 1.5rem;
+    }
+    #navbar{
+        text-align: center;
+        position: absolute;
+        top: 0;right: 0;
+        background: #000;
+        display: none;
+    }
+    #navbar ul li{
+        display: block;
+    }
+
+    #about,
+    #img,
+    #people{
+        padding: 0 0;
+        padding-top: 50px;
+    }
+
+    .info_content,
+    .info_people{
+        width: 50%;
+        padding: 5px 10px;
+    }
+
+    .info_people:hover{
+        transform: scale(1);
+    }
+    .info_content{
+        width: 95%;
+    }
+    .image{
+        padding: 15px 10px;
+    }
+    .image img{
+        margin: 1px;
+        width: calc(50% - 3px);
+    }
+    .image img:hover{
+        transform: scale(1);
+    }
+
+    .guide_content{
+        padding: 15px 10px;
+    }
+
+    a img{
+        width: 100%;
+    }
+
+    .guide_content ul{
+        padding: 0 15px;
+    }
+    .cotact_info{
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+    .cotact_info div{
+        width: 100% !important;
+    }
+
+    .cotact_info div img{
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .img_content{
+        width: 82.5%;
+        padding: 5px;
+    }
+
+
+    #logo{
+        font-size: 1.7rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #about,
+    #img,
+    #people{
+        padding: 70px 0;
+        padding-bottom: 0;
+    }
+
+    .info_content,
+    .info_people{
+        width: 33%;
+        padding: 0 20px;
+    }
+
+    .info_content{
+        width: 87.5%;
+    }
+
+    .info_people:last-child{
+        width: 100%;
+    }
+
+    .info_people:hover {
+        transform: scale(1.1);
+    }
+
+    .image{
+        padding: 0 20px;
+    }
+    .image img{
+        width: calc(33% - 10px);
+        margin: 5px;
+    }
+
+    .guide_content{
+        padding: 0 20px;
+        padding-top: 40px;
+    }
+
+    .tutorial a img{
+        width: 85%;
+    }
+
+    .cotact_info{
+        padding: 40px 30px;
+    }
+}
